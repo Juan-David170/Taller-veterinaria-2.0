@@ -1,0 +1,155 @@
+header {
+ 
+    background-image: url(imagenes/fondoGuarderia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: rgb(39, 7, 247);
+}
+
+header .logo {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+    margin-bottom: 20px;
+}
+.logo button{
+    margin-top: 60px;
+    height: 30px;
+    pointer-events: painted;
+    background-color: #fffefe;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo button a{
+    color: black;
+    text-decoration: none;
+}
+
+header .logo img {
+    margin-top: 60px;
+    width: 250px;
+    max-width: 20%;
+}
+
+.set {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.atp {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+.imagen1, .imagen2 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ru, .rou, .rod, .ro {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.service-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f6f6;
+    color: #282727;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.foo{
+    flex-basis: 100%;    
+}
+
+.inf {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inf li {
+    margin-bottom: 5px;
+}
+
+.t {
+    font-size: 15px;
+}
+
+figure.logo2 {
+    margin: 0;
+    padding: 0;
+}
+
+figure.logo2 img {
+    max-width: 50%;  
+}

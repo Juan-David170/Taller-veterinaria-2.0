@@ -1,0 +1,216 @@
+header {
+    background-image: url(imagenes/fondoProductos.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: rgb(39, 7, 247);
+}
+
+header .logo {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header .logo img {
+    margin-top: 60px;
+    width: 250px;
+    max-width: 20%;
+}
+
+section article .text {
+    text-align: justify;
+}
+
+section article .text img {
+    float: left;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 0px rgb(131, 163, 82);
+    width: 350px;
+    height: 290px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+article .negri {
+    font-weight: bold;
+}
+
+section article {
+    justify-content: center;
+    text-align: justify
+}
+
+section article .hu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section article .hu h3 {
+
+    color: rgb(108, 145, 51);
+}
+
+section article .hu h3 img {
+    width: 40px;
+    height: 40px;
+}
+
+section .seg {
+    justify-content: center;
+    text-align: justify
+}
+
+section .seg p img {
+    float: right;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 0px rgb(131, 163, 82);
+    margin-left: 10px;
+}
+
+section .seg .errors {
+    font-weight: bold;
+}
+
+section .seg .tex1 {
+    text-align: justify;
+}
+
+div{
+    margin: 30px;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(140, 141, 141);
+}
+
+.producto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.prod {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.figu {
+    text-align: center;
+}
+
+.figu img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.prod h3 {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.prod p {
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+}
+
+.base {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.negrita {
+    font-weight: bold;
+    color: #333;
+}
+
+.boton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f6f6;
+    color: #282727;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.foo{
+    flex-basis: 100%;    
+}
+
+.inf {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inf li {
+    margin-bottom: 5px;
+}
+
+.t {
+    font-size: 15px;
+}
+
+figure.logo2 {
+    margin: 0;
+    padding: 0;
+}
+
+figure.logo2 img {
+    max-width: 50%;  
+}

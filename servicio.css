@@ -1,0 +1,148 @@
+header {
+    background-image: url(imagenes/fondoServicios.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(39, 7, 247);
+}
+
+header .logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header .logo img {
+    margin-top: 60px;
+    width: 250px;
+    max-width: 20%;
+}
+
+section .pelu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .pelu .peluquria {
+    max-width:750px; 
+}
+
+section .pelu .peluquria .hu {
+    display: flex;
+    color: rgb(108, 135, 66);
+    align-items: center;
+   justify-content: center;
+   margin-left: 110px;
+}
+
+section .peluquria .hu img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.peluquria .primer {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+section .peluquria .primer .peluq {
+margin: 0;
+padding: 0;
+}
+section .peluquria .primer .peluq img {
+    max-width: 242px;
+    height: 200px;   
+    border-radius: 19px;
+    box-shadow: 7px 7px 10px olive;
+}
+.primer .text{
+    margin-left: 10px;
+    
+}
+section .text span {
+    display: block;
+    text-align: justify;
+    margin: 10px 0 10px 0;
+}
+section .text2{
+    margin-top: 0;
+}
+section .text2 span {
+    display: block;
+    text-align: justify;
+    margin: 10px 0 10px 0;
+}
+#mariana {
+    width: 100%;
+}
+
+section .pelu .servicios {
+    margin-left: 90px;
+    flex-basis: 300px; 
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f6f6;
+    color: #282727;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.foo {
+    flex-basis: 100%;
+}
+
+.inf {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inf li {
+    margin-bottom: 5px;
+}
+
+.t {
+    font-size: 15px;
+}
+
+figure.logo2 {
+    margin: 0;
+    padding: 0;
+}
+
+figure.logo2 img {
+    max-width: 50%;
+}

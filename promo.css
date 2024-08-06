@@ -1,0 +1,227 @@
+header {
+    background-image: url(imagenes/fondoPromociones.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: rgb(39, 7, 247);
+}
+
+header .logo {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header .logo img {
+    margin-top: 60px;
+    width: 250px;
+    max-width: 20%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+figure.ima1 {
+    display: flex;
+    width: 220px;
+    height: 200px;
+    flex-basis: 18%;
+    margin: 5px;
+}
+
+
+figure.ima1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+article.flecha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+figure.atras,
+figure.frente {
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    cursor: pointer;
+}
+
+figure.atras img.fle,
+figure.frente img.fle {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.promoc {
+    display: flex;
+    flex-direction: column;
+}
+.promoc .bus{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.promoc .bus h4{
+    margin-right:  30px;
+    font-size: 25px;
+}
+.promoc .bus .busq{
+    margin-top: 60px;
+    margin-left: 190px;
+}
+.promoc .bus .busq .box{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 170px;
+    height: 20px;
+}
+.promoc .bus .busq button{
+    border-radius: 5px;
+    background-color: #dddddd;
+}
+.promoc .promocion{
+    display: flex;
+    flex-wrap: wrap;
+}
+.promoc .prod {
+    box-shadow: 0 0 5px rgb(149, 176, 191);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20PX;
+    width: 250px;
+    height: 500px;
+}
+
+.promoc .prod .figu {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.promoc .prod .figu .por {
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    color: rgb(46, 142, 205);
+    background-color: rgb(209, 216, 219);
+    box-shadow: 0 0 5px rgb(149, 176, 191);
+}
+
+.promoc .prod .figu img {
+
+    width: 200px;
+}
+
+.promoc .prod .base {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   align-items: start;
+  width: 190%;  
+}
+
+.promoc .prod .base .nom {
+    margin: 0;
+    padding: 0;
+}
+
+.promoc .prod .base .prec {
+    margin: 0;
+    padding: 0;
+}
+
+.promoc .prod .base .boton {
+    height:30px ;
+    background-color: rgb(97, 167, 214);
+    border-color: rgb(97, 167, 214);
+   border-radius: 5px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f6f6;
+    color: #282727;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.foo{
+    flex-basis: 100%;    
+}
+
+.inf {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inf li {
+    margin-bottom: 5px;
+}
+
+.t {
+    font-size: 15px;
+}
+
+figure.logo2 {
+    margin: 0;
+    padding: 0;
+}
+
+figure.logo2 img {
+    max-width: 50%;  
+}
